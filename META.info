@@ -6,6 +6,6 @@
     "authority"   : "soh-cah-toa",
     "depends"     : [],
     "source-type" : "git",
-    "source-url"  : "git://github.com/soh-cah-toa/p6-irc-utils.git"
+    "source-url"  : "git://github.com/perl6-community-modules/p6-irc-utils.git"
 }
 
