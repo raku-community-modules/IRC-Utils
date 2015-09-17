@@ -982,7 +982,7 @@ sub matches_mask(Str $mask is copy, Str $match is copy, Str $mapping? is copy) i
 }
 
 sub parse_user(Str $user) returns List is export {
-    return flat $user.split(/<[!@]>/);
+    return $user.split(/<[!@]>/).list;
 }
 
 sub has_color(Str $string) returns Bool is export {
