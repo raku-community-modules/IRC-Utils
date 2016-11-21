@@ -1,5 +1,7 @@
 # IRC::Utils
 
+[![Build Status](https://travis-ci.org/perl6-community-modules/p6-irc-utils.svg?branch=master)](https://travis-ci.org/perl6-community-modules/p6-irc-utils)
+
 This is a Perl 6 port of the `IRC::Utils` module.
 
 It provides some useful utilities for use in other IRC-related modules.
