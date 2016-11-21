@@ -11,22 +11,18 @@ The source code for `IRC::Utils` is available at <https://github.com/soh-cah-toa
 
 To obtain a local copy of the source code, run:
 
-    git clone git://github.com/soh-cah-toa/p6-irc-utils.git p6-irc-utils
+    git clone git://github.com/soh-cah-toa/p6-irc-utils.git
 
 
 ## Installation
 
-Once you've obtained a copy of the source code, run:
+To install the software, simply use either `panda`
 
-    ufo             # Creates Makefile
-    make            # Builds module
-    make test       # Runs test suite
-    make install    # Installs to ~/.perl6/lib
+    panda install IRC::Utils
 
-If you wish to remove the files generated during the build/install process, run:
+or `zef`
 
-    make clean        # Removes generated files
-    make distclean    # 'make clean' and removes Makefile
+    zef install IRC::Utils
 
 
 ## Feedback
