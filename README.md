@@ -9,11 +9,12 @@ It provides some useful utilities for use in other IRC-related modules.
 
 ## Source Code
 
-The source code for `IRC::Utils` is available at <https://github.com/soh-cah-toa/p6-irc-utils>.
+The source code for `IRC::Utils` is available at
+<https://github.com/perl6-community-modules/p6-irc-utils>.
 
 To obtain a local copy of the source code, run:
 
-    git clone git://github.com/soh-cah-toa/p6-irc-utils.git
+    git clone git://github.com/perl6-community-modules/p6-irc-utils.git
 
 
 ## Installation
