@@ -37,9 +37,12 @@ GitHub and submit a Pull Request.
 
 ## Author
 
-Kevin Polulak
-    Email: kpolulak@gmail.com
-    IRC:   soh_cah_toa
+Originally developed by Kevin Polulak:
+  - Email: kpolulak@gmail.com
+  - IRC:   soh_cah_toa
+
+Now maintained by The Perl6 Community:
+  - GitHub: https://github.com/perl6-community-modules
 
 
 ## Copyright and License
