@@ -1,5 +1,3 @@
-use v6;
-
 use Test;
 use IRC::Utils;
 
@@ -302,5 +300,4 @@ plan *;
 
 done-testing;
 
-# vim: ft=perl6
-
+# vim: expandtab shiftwidth=4

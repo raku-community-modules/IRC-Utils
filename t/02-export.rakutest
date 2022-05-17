@@ -1,5 +1,3 @@
-use v6;
-
 use Test;
 use IRC::Utils;
 
@@ -24,5 +22,4 @@ ok(defined(&has_formatting),     'Check that has_formatting() is exported');
 ok(defined(&strip_color),        'Check that strip_color() is exported');
 ok(defined(&strip_formatting),   'Check that strip_formatting() is exported');
 
-# vim: ft=perl6
-
+# vim: expandtab shiftwidth=4

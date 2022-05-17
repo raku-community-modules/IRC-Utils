@@ -1,17 +1,26 @@
 {
-  "name": "IRC::Utils",
-  "source-url": "git://github.com/raku-community-modules/IRC-Utils.git",
-  "authority": "soh-cah-toa",
-  "perl": "6.*",
-  "source-type": "git",
+  "auth": "zef:raku-community-modules",
   "author": "Kevin Polulak",
-  "depends": [
-    
+  "build-depends": [
   ],
+  "depends": [
+  ],
+  "description": "handy IRC utilities for use in other IRC-related modules",
   "license": "Artistic-2.0",
+  "name": "IRC::Utils",
+  "perl": "6.*",
   "provides": {
-    "IRC::Utils": "lib/IRC/Utils.pm"
+    "IRC::Utils": "lib/IRC/Utils.rakumod"
   },
-  "version": "0.2.0",
-  "description": "A Raku port of the IRC::Utils module"
+  "resources": [
+  ],
+  "source-type": "git",
+  "source-url": "git://github.com/raku-community-modules/IRC-Utils.git",
+  "tags": [
+    "IRC",
+    "UTILS"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.2.1"
 }
