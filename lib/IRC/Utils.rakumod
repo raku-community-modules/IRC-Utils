@@ -981,8 +981,6 @@ say $stripped;
 
 =end code
 
-=back
-
 =head1 CONSTANTS
 
 The following constants are provided to embed color and formatting codes in IRC

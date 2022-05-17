@@ -374,11 +374,6 @@ say $stripped;
 # Output: This is strong!
 ```
 
-back
-====
-
-
-
 CONSTANTS
 =========
 
