@@ -1,6 +1,8 @@
 Revision history for IRC-Utils
 
 {{$NEXT}}
+
+0.2.1  2022-05-17T14:35:36+02:00
     - Initial version in the zef ecosystem
 
 2011-09-25  Kevin Polulak  <kpolulak@gmail.com>
