@@ -304,7 +304,7 @@ sub parse_mode_line(@mode is copy) returns Hash is export {
             @chan_modes = $arg;
             next;
         }
-        elsif $arg.WHAT.perl eq 'Hash' {
+        elsif $arg.WHAT.raku eq 'Hash' {
             $stat_modes = join '', $arg.keys;
             next;
         }
@@ -425,7 +425,7 @@ sub is_valid_nick_name(Str:D $nick --> Bool:D) is export {
 }
 
 # TODO Modify this to take just one arg and move #/& check into one regex b/c
-#      even though this is how the Perl 5 IRC::Utils works, I don't like it
+#      even though this is how the Perl IRC::Utils works, I don't like it
 
 sub is_valid_chan_name(Str $chan, $types = ['#', '&'] --> Bool:D) is export {
     return False
@@ -580,7 +580,7 @@ RFC 1459 <https://www.rfc-editor.org/rfc/rfc1459.txt>.
 
 =head1 SUBROUTINES
 
-Unlike the C<IRC::Utils> module for Perl 5, you do not need to specify the
+Unlike the C<IRC::Utils> module for Perl, you do not need to specify the
 C<:ALL> tag when importing the module. Therefore, the following subroutines
 are exported into the caller's namespace by default.
 
